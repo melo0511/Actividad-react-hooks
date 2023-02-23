@@ -21,6 +21,7 @@ export const MainUseCustom = () => {
       <Input 
         type="text"
         styleInput="inputChange"
+        placeHolder="Ingrese texto"
       />
 
       <Button

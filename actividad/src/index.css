@@ -83,6 +83,11 @@ nav{
   color: white;
 }
 
+#counterChanger{
+  font-size:80px;
+  color: green;
+}
+
 #button{
   width: 25%;
   height:4rem;
@@ -130,4 +135,22 @@ nav{
   border: 2px solid white;
   background: gray;
   color: white;
+}
+
+/* UseEffect */
+
+#useEffect{
+  width: 100%;
+  height: 70%;
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#changerColor{
+  width: 40%;
+  height: 60%;
+  background: red;
 }

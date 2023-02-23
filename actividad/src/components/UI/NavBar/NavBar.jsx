@@ -7,7 +7,7 @@ export const NavBar = () => {
         <Anchor  route="/" textAnchor={"Home"}/>
         <Anchor  route="/UseState" textAnchor={"UseState"}/>
         <Anchor  route="/UseCustom" textAnchor={"UseCustom"}/>
-        <Anchor  route="/" textAnchor={"UseEffect"}/>
+        <Anchor  route="/UseEffect" textAnchor={"UseEffect"}/>
         <Anchor  route="/" textAnchor={"Rick And Morty"}/>
     </nav>
   )
