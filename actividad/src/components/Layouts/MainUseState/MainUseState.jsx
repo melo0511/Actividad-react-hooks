@@ -1,10 +1,15 @@
 import React from 'react'
 import { Button } from '../../UI/Button/Button'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export const MainUseState = () => {
 
     const [counter, setCounter] = useState(0)
+    const [identifier,setIdentifier] = useState('counter')
+
+    useEffect(() => {
+        counter>=10 ? setIdentifier('counterChanger') : setIdentifier('counter')
+    },[counter])
 
     const buttonAdd = ()=>{
         setCounter(counter+1)
@@ -20,7 +25,7 @@ export const MainUseState = () => {
 
   return (
     <main id='UseState'>
-        <h2 id='counter'>{counter}</h2>
+        <h2 id={identifier}>{counter}</h2>
         
         <div id='Containerbtn'>
 
